@@ -1,5 +1,5 @@
 package example
-import scalaz._, Scalaz._
+import scalaz._, Scalaz._, effect._, IO._
 
 object Hello extends App {
   
@@ -22,4 +22,5 @@ object Hello extends App {
   println(score)
  
   println(read(Name(("DD" |+| "dsdd")), Id(1)))
+ 
 }
