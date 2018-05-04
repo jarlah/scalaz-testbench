@@ -13,6 +13,10 @@ object Hello extends App {
     
   val score2: Int = Score(2)
   
+  val f2 = ((x: Int) => x * 2) map (_ * 4)
+  
+  println(f2(4))
+  
   val score = Score(1) |+| Score(2) |+| score2
     
   println(score)
