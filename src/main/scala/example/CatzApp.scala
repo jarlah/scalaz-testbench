@@ -1,6 +1,5 @@
 package example
 import cats.effect.IO
-import cats.effect.{Effect => CatsEffect}
 
 object CatzApp extends App {
   
