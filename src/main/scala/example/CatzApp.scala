@@ -8,8 +8,8 @@ object CatzApp extends App {
       newValue <- IO(println("Success"))
   } yield newValue
     
-  main.unsafeRunAsync(_ match {
+  main.unsafeRunAsync {
     case Right(value) => println(value)
     case Left(error) => println(error)
-  })
+  }
 }

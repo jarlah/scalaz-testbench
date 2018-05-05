@@ -1,5 +1,5 @@
 package example
-import scalaz._, Scalaz._
+import scalaz._
 
 object Score {
   sealed trait ScoreTag
